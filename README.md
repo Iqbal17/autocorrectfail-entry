@@ -6,7 +6,7 @@
 
 One funny autocorrect fail, one line, for make.fun's "Funniest Autocorrect Fail" bounty.
 
-> "Good luck on your exorcism tomorrow! I know you've been studying so hard."
+> "Good luck on your exorcism tonight! I know you've been studying so hard for it."
 
 ## Run it
 

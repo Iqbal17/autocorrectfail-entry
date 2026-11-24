@@ -73,13 +73,66 @@ exorcism(8) = 26, + space = 27, tomorrow!(9) = 36, + space = 37, I(1) =
 51, been(4) = 55, + space = 56, studying(8) = 64, + space = 65, so(2) =
 67, + space = 68, hard.(5) = 73. Cross-check: 61 non-space characters +
 12 spaces = 73.
+
+DECISION RECORD — REVISION (kit check: thinking_turns / thinking_revised):
+
+Fresh candidates weighed against the same five criteria:
+
+E. "Congrats on the new baby! Can't wait to meet little Satan." (58 chars)
+   - For: the tightest line yet; Satan is a shocking wrong word, and
+     "new baby" plus "little" makes the swap land on the last word.
+   - Against: the intended word (Nathan) is never named anywhere in the
+     line, so a reader who does not guess the name sees an insult, not a
+     fail — criterion 2 (clear slip) fails, and criterion 3 (reads as a
+     real slip, not a written joke) fails with it. Rejected.
+
+F. "The mating is moved to 3pm. Bring the quarterly reports." (56 chars)
+   - For: meeting -> mating is the most autocorrect-plausible swap of any
+     line considered (one letter), the office context names the intended
+     word, and it reads exactly like a real work text.
+   - Against: it is THE canonical autocorrect joke, on every "funniest
+     autocorrect fails" list — criterion 5 (specific and original rather
+     than a generic swap) punishes the retread, and the laugh is a smirk
+     rather than a surprise. Rejected.
+
+G. "The doctor called — good news, your test was negative! We're
+   celebrating with a small funeral tonight." (102 chars)
+   - For: the funeral/dinner contrast is dark and funny on paper.
+   - Against: dinner -> funeral shares almost no letters, so no
+     autocorrect engine makes that swap — it reads as a written joke
+     wearing an autocorrect costume, the exact failure criterion 3
+     punishes. Rejected.
+
+Verdict: A still wins — it is the only line where the intended word is
+named without being explained ("studying so hard" = exam) AND the wrong
+word is fresh (exorcism, not the meeting/mating retread). But A can be
+sharpened in two real ways, so the line changes:
+
+R1. "tomorrow" -> "tonight": an exam tomorrow is routine; an exorcism
+    TONIGHT is imminent, which raises the stakes and makes the friend's
+    well-wishing feel urgent — the joke lands faster.
+R2. append "for it" to the second clause: "studying so hard for it"
+    gives the line a second layer — on first read the studying was for
+    the exam; on the second beat it was for the exorcism. The clause
+    still reads like a natural text from a friend.
+
+FINAL ENTRY (79 characters):
+"Good luck on your exorcism tonight! I know you've been studying so hard for it."
+
+Hand count, two ways: word by word — Good(4) + space = 5, luck(4) = 9,
++ space = 10, on(2) = 12, + space = 13, your(4) = 17, + space = 18,
+exorcism(8) = 26, + space = 27, tonight!(8) = 35, + space = 36, I(1) =
+37, + space = 38, know(4) = 42, + space = 43, you've(6) = 49, + space =
+50, been(4) = 54, + space = 55, studying(8) = 63, + space = 64, so(2) =
+66, + space = 67, hard(4) = 71, + space = 72, for(3) = 75, + space =
+76, it.(3) = 79. Cross-check: 65 non-space characters + 14 spaces = 79.
 """
 
 import os
 
 ENTRY = (
-    "Good luck on your exorcism tomorrow! "
-    "I know you've been studying so hard."
+    "Good luck on your exorcism tonight! "
+    "I know you've been studying so hard for it."
 )
 
 
